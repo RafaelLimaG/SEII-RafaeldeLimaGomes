@@ -1,4 +1,8 @@
-import pandas as pd
-dados = pd.read_csv('~/code/SEII-RafaeldeLimaGomes/Semana03/Exercicio05/athlete_events.csv')
+import matplotlib.pyplot as plt
+import numpy as np
 
-dados.head()
+x1 = np.arange(-1000,1000,1)
+print(x1)
+
+plt.plot(x1, -x1**3+4)
+plt.show()
