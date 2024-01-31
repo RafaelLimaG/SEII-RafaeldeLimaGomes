@@ -1,8 +1,8 @@
-price = 25 
+price = 27 
 
-print(price > 10 and price < 30)    #os dois tem que ser verdadeiros
+print(price > 10 and price < 30)    
 
-print(price > 10 or price == 24)    #apenas um precisa ser verdadeiro
+print(price > 10 or price == 24)    
 
-print(not price == 10)              #inverte o resultado booleano 
+print(not price == 10)            
 
