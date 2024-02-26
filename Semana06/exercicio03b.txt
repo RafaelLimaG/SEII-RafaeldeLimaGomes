@@ -1,0 +1,7 @@
+exercicio03b.txt
+
+1) O limite máximo padrão de bytes a serem enviados por pacotes TCP é de 1500 bytes. Já para o protocolo UDP, este limite é de 65507 bytes.
+
+2) Um arquivo grande pode ser enviado utilizando o protocolo UDP que permite a tranferencia de pacotes maiores, além de suportar broadcasting e multicasting.
+
+3) TCP é mais adequado para aplicações que exigem entrega confiável de dados e garantias de ordem, como transferência de arquivos, e-mails, navegação na web, etc. UDP, por outro lado, é mais adequado para aplicações que exigem baixa sobrecarga e onde a perda ocasional de dados não é crítica, como streaming de vídeo, jogos online, transmissão de áudio em tempo real, entre outros.CP é mais adequado para aplicações que exigem entrega confiável de dados e garantias de ordem, como transferência de arquivos, e-mails, navegação na web, etc. UDP, por outro lado, é mais adequado para aplicações que exigem baixa sobrecarga e onde a perda ocasional de dados não é crítica, como streaming de vídeo, jogos online, transmissão de áudio em tempo real, entre outros.
