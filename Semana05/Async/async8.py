@@ -1,7 +1,7 @@
 import asyncio
 
 async def main():
-    print('Gabriel')
+    print('Rafael')
     task = asyncio.create_task(foo('text'))
     await asyncio.sleep(0.5)
     print('finished')
