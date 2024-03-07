@@ -26,19 +26,49 @@ input{
 
 input[type=text]{
     width: calc(100% - 4px);
+    height: 40px;
 }
 
 input[type=button]{
     width: 100px;
     height: 50px;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+div#calculadora {
+    box-shadow: 0 0 10px black;
 }
 
 div#calculadora div{
     display: flex;
 }
 
+div#calculadora div input:nth-child(4){
+    background-color: gray;
+}
+
 div#quarta input:nth-child(1){
     background-color: #f11a2e;
 }
 
+div#quarta input:nth-child(1), div#calculadora {
+    border-bottom-left-radius: 35px;
+}
+
+div#quarta input:nth-child(3){
+    background-color: #1a4cf1;
+}
+
+div#quarta input:nth-child(4), div#calculadora {
+    border-bottom-right-radius: 35px;
+}
+
+input[type=button]:hover{
+    filter: brightness(50%);
+}
+
+input[type=button]:active {
+    transform: scale(0.9);
+}
 
