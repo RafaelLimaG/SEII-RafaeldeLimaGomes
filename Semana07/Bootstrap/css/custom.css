@@ -1,0 +1,19 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: ease-out 0.2s;
+}
+
+#header .navbar-collapse{
+    width: auto;
+}
+
+
+#header .navbar-brand img {
+    border-radius: 50%;
+}
